@@ -4,7 +4,20 @@
 
 ![Screenshot from 2022-06-30 13-15-11](https://user-images.githubusercontent.com/79002614/176692307-e297f968-5e78-4375-b154-5f38e34a5388.png)
 
-2. 
+2. Прописываем в файле .env данные нашей БД.
+
+3. Создаем модель Character
+
+![Screenshot from 2022-06-30 13-28-44](https://user-images.githubusercontent.com/79002614/176693545-124ccaab-5803-401c-9450-dec6621ada0b.png)
+
+4. Изменяем модель, указываем нужные нам поля в миграции
+
+![image](https://user-images.githubusercontent.com/79002614/176693730-5ae93015-fd57-4d1e-b94c-b5c85d566e3d.png)
+
+5. Выполняем команду php artisan migrate
+
+![Screenshot from 2022-06-30 13-35-42](https://user-images.githubusercontent.com/79002614/176693881-00961e5b-4554-49ad-9d49-5a97eb38b82f.png)
+
 
 # Hawking School Homework #9
 
