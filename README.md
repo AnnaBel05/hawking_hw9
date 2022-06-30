@@ -1,5 +1,15 @@
 # Hawking School Homework #10
 
+Папка с моделями: https://github.com/AnnaBel05/hawking_hw9/tree/master_new/app/Models 
+
+Папка с контроллерами: https://github.com/AnnaBel05/hawking_hw9/tree/master_new/app/Http/Controllers
+
+Папка с представлениями: https://github.com/AnnaBel05/hawking_hw9/tree/master_new/resources/views
+
+Маршруты: https://github.com/AnnaBel05/hawking_hw9/blob/master_new/routes/web.php
+
+Посредники: https://github.com/AnnaBel05/hawking_hw9/tree/master_new/app/Http/Middleware
+
 1. Устанавливаем Laravel Passport
 
 ![Screenshot from 2022-06-30 13-15-11](https://user-images.githubusercontent.com/79002614/176692307-e297f968-5e78-4375-b154-5f38e34a5388.png)
