@@ -1,3 +1,38 @@
+# Hawking School Homework #11
+
+1. Добавляем unique на одно из полей, в данном случае - поле с именем персонажа
+
+![Screenshot from 2022-06-30 17-15-22](https://user-images.githubusercontent.com/79002614/176712594-10dc1a55-505c-4f31-8e99-fb69dc5b812f.png)
+
+2. Устанавливаем Laravel Debugbar
+
+![image](https://user-images.githubusercontent.com/79002614/176713134-8c95d559-7728-460e-9d28-e7e90a8f3e12.png)
+
+![Screenshot from 2022-06-30 17-26-04](https://user-images.githubusercontent.com/79002614/176713179-890c6b81-1f0a-4828-bc61-f9f8bac16dfd.png)
+
+2.1. Создание моделей, контроллеров и представлений было подробнее рассмотрено в ДЗ №10 - См. ниже.
+
+3. Выполняем какие-либо действия, смотрим, что покажет Debugbar
+
+![Screenshot from 2022-06-30 17-26-50](https://user-images.githubusercontent.com/79002614/176713312-3e5e1e67-d10b-4485-b2e1-b21fa8bcc269.png)
+
+4. Вставляем данные через форму, смотрим sql-запрос
+
+![Screenshot from 2022-06-30 17-27-36](https://user-images.githubusercontent.com/79002614/176713599-c9a44583-f89a-4d36-95b1-99668c05dbc8.png)
+
+5. Пробуем вставить персонажа с таким же именем
+
+![Screenshot from 2022-06-30 17-28-33](https://user-images.githubusercontent.com/79002614/176713771-fefb8174-f05d-4d7b-bd16-80e136eb6936.png)
+
+6. С помощью посредника предотвращаем вставку в таблицу записи с существующим именем (мной был использован уже существующий посредник как тест, целесообразнее, разумеется, создать отдельный посредник, просто немного не хватило времени переделать).
+
+![image](https://user-images.githubusercontent.com/79002614/176714371-a8651169-ecf0-4dd6-b73c-7d8988426632.png)
+
+7. Снова пробуем вставить данные с уже существующим именем - нам выводится сообщение, что такой персонаж уже существует
+
+![Screenshot from 2022-06-30 18-00-38](https://user-images.githubusercontent.com/79002614/176714616-62ddda37-68da-4c08-af4e-dbc19cea73bb.png)
+
+
 # Hawking School Homework #10
 
 Папка с моделями: https://github.com/AnnaBel05/hawking_hw9/tree/master_new/app/Models 
