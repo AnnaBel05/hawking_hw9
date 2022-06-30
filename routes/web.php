@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CharacterController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('helloworld');
 });
+
+Route::get('view-characters', [CharacterController::class, 'index'])->middleware(('testred'));
+Route::get('show-character/{id}', [CharacterController::class, 'show'])->middleware(('testred'));;
+Route::get('add-character-form', [CharacterController::class, 'add']);
+Route::post('store-character-form', [CharacterController::class, 'store'])
+->middleware(('empty'));
+Route::get('redirects/{id}')->middleware(('testred'));
