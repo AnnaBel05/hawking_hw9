@@ -1,4 +1,4 @@
-# Hawking School Homework #9
+# Hawking School Homework #10
 
 1. Устанавливаем Laravel Passport
 
@@ -17,6 +17,38 @@
 5. Выполняем команду php artisan migrate
 
 ![Screenshot from 2022-06-30 13-35-42](https://user-images.githubusercontent.com/79002614/176693881-00961e5b-4554-49ad-9d49-5a97eb38b82f.png)
+
+6. Создаем посредника, который будет проверять поле формы на пустоту
+
+![Screenshot from 2022-06-30 13-44-14](https://user-images.githubusercontent.com/79002614/176694177-c1ffaa83-c3b1-4431-9bd7-38379a7ade06.png)
+
+![Screenshot from 2022-06-30 14-44-42](https://user-images.githubusercontent.com/79002614/176695159-3f01fc8d-d5ba-4e1e-b165-57d11981988d.png)
+
+7. Создаем контроллер для модели Character
+
+![Screenshot from 2022-06-30 13-54-28](https://user-images.githubusercontent.com/79002614/176694247-35b4b69f-1eeb-423c-a097-c5d8cfa643ab.png)
+
+8. Создаем add-character-form.blade.php
+
+![image](https://user-images.githubusercontent.com/79002614/176694823-21e45710-e60b-4da5-9276-148beb197531.png)
+
+9. Прописываем маршруты
+
+![Screenshot from 2022-06-30 14-41-07](https://user-images.githubusercontent.com/79002614/176695051-782ba9c9-6411-4140-9f98-dd9d75c217da.png)
+
+10. Запускаем сервер с помощью команды php artisan serve
+
+![Screenshot from 2022-06-30 14-16-10](https://user-images.githubusercontent.com/79002614/176694915-cf1a4b59-0d00-4cc8-b9a2-dc62f18ca1a3.png)
+
+11. Пробуем отправить форму с пустыми полями
+
+![Screenshot from 2022-06-30 14-45-25](https://user-images.githubusercontent.com/79002614/176695271-114a22c5-666f-4707-92ad-586318906b2d.png)
+
+
+12. Обновляем главную страницу так, чтобы она содержала пути на остальные страницы
+
+![Screenshot from 2022-06-30 15-33-30](https://user-images.githubusercontent.com/79002614/176695402-9f2e4d56-f527-4bd3-b0c8-8581276e0b33.png)
+
 
 
 # Hawking School Homework #9
