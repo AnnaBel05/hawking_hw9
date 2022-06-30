@@ -49,7 +49,27 @@
 
 ![Screenshot from 2022-06-30 15-33-30](https://user-images.githubusercontent.com/79002614/176695402-9f2e4d56-f527-4bd3-b0c8-8581276e0b33.png)
 
+13. Добавляем страницы просмотра информации о всех записях
 
+![Screenshot from 2022-06-30 15-33-44](https://user-images.githubusercontent.com/79002614/176695820-ba313da1-32d9-460d-acfa-f432b166d7f8.png)
+
+14. И страницу просмотра одной записи
+
+![Screenshot from 2022-06-30 15-33-48](https://user-images.githubusercontent.com/79002614/176695876-5a717ae4-c685-4e69-9547-d1b36d1aa165.png)
+
+15. Создаем еще одного посредника, который будет перенаправлять нас на страницу просмотра информации о персонаже (по передаваемому id)
+
+![image](https://user-images.githubusercontent.com/79002614/176696168-a4e72c33-54b8-405d-a992-6cd899e405dd.png)
+
+16. Подключаем его к маршрутам
+
+![image](https://user-images.githubusercontent.com/79002614/176696381-d344fb8e-a5cd-4897-b5aa-a2051915233d.png)
+
+17. На странице просмотра указываем ссылку на представление, с которого идет редирект (см. 15й пункт)
+
+![image](https://user-images.githubusercontent.com/79002614/176696670-8fa997e6-251f-41de-916a-6fc386ca1cfd.png)
+
+Мной было немного изменено задание - не вывод передаваемого параметра, а вывод информации из БД по параметру. Надеюсь, это не сильно влияет.
 
 # Hawking School Homework #9
 
