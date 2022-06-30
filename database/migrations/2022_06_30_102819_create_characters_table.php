@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('characters', function (Blueprint $table) {
             $table->id();
-            $table->string("name", 255)->nullable();
+            $table->string("name", 255)->unique();
             $table->decimal("rarity", 2)->nullable();
             $table->text("description")->nullable();
             $table->string("weapon", 255)->nullable();
