@@ -12,7 +12,43 @@
 
 Ход работы: 
 
+1. Создаем класс StorePostRequest (забыла изменить название под свою тему) с помощью команды artisan:
 
+![Screenshot from 2022-07-30 15-08-52](https://user-images.githubusercontent.com/79002614/181919884-ed3e34d8-4f57-45eb-b25d-66e2007bcbd8.png)
+
+2. В контроллере заменяем класс Request на только что созданный
+
+![Screenshot from 2022-07-30 15-30-24](https://user-images.githubusercontent.com/79002614/181919904-fe48a4ff-c2b0-432f-84ce-85e4601679ab.png)
+
+3. Ставим условия валидации
+
+![Screenshot from 2022-07-30 17-55-29](https://user-images.githubusercontent.com/79002614/181919950-0a535c16-dec8-44f1-a149-bd4f0952d257.png)
+
+4. Теперь при внесении уже существующего имени нас будет переотправлять обратно на страницу ввода. В идеале можно добавить отдельную страницу сообщения с ошибкой.
+
+5. Поле image_link было создано в предыдущем домашнем задании
+
+![Screenshot from 2022-07-30 15-54-02](https://user-images.githubusercontent.com/79002614/181920016-db7ba829-1f2c-4469-95a8-78a94e305d13.png)
+
+6. Необходимо добавить следующее свойство форме - без него изображения не будут приходить (ошибка с empty)
+
+![Screenshot from 2022-07-30 16-32-58](https://user-images.githubusercontent.com/79002614/181920048-078b0753-a3da-497d-90fb-48f6f3228d03.png)
+
+7. Создаем ссылку на хранилище
+
+![Screenshot from 2022-07-30 16-37-51](https://user-images.githubusercontent.com/79002614/181920076-75e6379f-15dc-43b2-9f3a-51437043dbb1.png)
+
+8. Пробуем добавить персонажа, смотрим, как теперь будет выводиться информация о них (первые два персонажа на скриншоте были добавлены ранее, так что не имеют изображений)
+
+![Screenshot from 2022-07-30 17-23-02](https://user-images.githubusercontent.com/79002614/181920116-2728a387-fe1b-4dc9-9b32-15f0e5d9d8f0.png)
+
+9. Галерея реализована в виде таблички изображений всех персонажей перед общим списком
+
+![Screenshot from 2022-07-30 17-46-31](https://user-images.githubusercontent.com/79002614/181920146-ca2e38fd-6532-4461-9359-73f999ba6392.png)
+
+10. Код галереи
+
+![image](https://user-images.githubusercontent.com/79002614/181920166-73b994d0-974f-41f7-9487-1a06fb9b3444.png)
 
 
 
