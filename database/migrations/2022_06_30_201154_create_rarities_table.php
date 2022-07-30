@@ -13,14 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('characters', function (Blueprint $table) {
+        Schema::create('rarities', function (Blueprint $table) {
             $table->id();
-            $table->string("name", 255)->unique();
             $table->decimal("rarity", 2)->nullable();
-            $table->text("description")->nullable();
-            $table->string("weapon", 255)->nullable();
-            $table->string("element", 255)->nullable();
-            $table->text("image_link")->nullable();
+            $table->string("rarity_name", 255);
             $table->timestamps();
         });
     }
@@ -32,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('characters');
+        Schema::dropIfExists('rarities');
     }
 };

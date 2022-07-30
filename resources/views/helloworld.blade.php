@@ -29,10 +29,10 @@
     <div>
         <a href="{{ url('view-characters') }}">View characters</a>
     </div>
-    <!-- <div>
-        <a href="{{ url('add-character-form') }}">Add character</a>
-    </div>
     <div>
+        <a href="{{ url('view-by-element') }}">View anemo characters</a>
+    </div>
+    <!-- <div>
         <a href="{{ url('add-character-form') }}">Add character</a>
     </div> -->
     <div class="container page">
