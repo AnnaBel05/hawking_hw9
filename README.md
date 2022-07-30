@@ -16,6 +16,26 @@ posts, articles, news.
 
 Ход работы:
 
+1. Использование join-a для вывода информации о персонаже
+
+![Screenshot from 2022-07-31 01-36-42](https://user-images.githubusercontent.com/79002614/182002936-00101bd0-d023-4d0f-bfd7-37a77caa1151.png)
+
+2. Связывание моделей было выполнено в прошлом задании (см. ниже)
+
+3. 
+
+![Screenshot from 2022-07-31 01-47-11](https://user-images.githubusercontent.com/79002614/182002960-6c4b1886-5b2b-47dd-b5e8-60367a157570.png)
+
+4. Создаем трейт редкости, т.к. он может принадлежать любым игровым предметам
+
+![Screenshot from 2022-07-31 01-43-52](https://user-images.githubusercontent.com/79002614/182002977-a43408ae-8f28-467c-bc94-7d7d4e78e502.png)
+
+![Screenshot from 2022-07-31 01-29-24](https://user-images.githubusercontent.com/79002614/182002980-66641dce-6499-4a28-8e5f-0d5275e343b3.png)
+
+![Screenshot from 2022-07-31 01-28-48](https://user-images.githubusercontent.com/79002614/182002983-20fb6df7-7685-4e7b-a2dc-bd30c15430d3.png)
+
+______________________
+
 # Hawking School Homework #13
 
 Задание:
@@ -54,6 +74,7 @@ posts, articles, news.
 
 ![image](https://user-images.githubusercontent.com/79002614/182000876-6bd654f0-6379-4b65-9f94-8eec119e53c2.png)
 
+______________________
 
 # Hawking School Homework #12
 
@@ -107,7 +128,7 @@ posts, articles, news.
 
 ![image](https://user-images.githubusercontent.com/79002614/181920166-73b994d0-974f-41f7-9487-1a06fb9b3444.png)
 
-
+______________________
 
 # Hawking School Homework #11
 
