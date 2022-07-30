@@ -14,4 +14,10 @@
     </div>
 </div>
 
+<div class="row">
+    <div>
+        <strong>Image: </strong> <img src="{{ url('/storage/' . $character->image_link) }}" width="200px">
+    </div>
+</div>
+
 @endsection

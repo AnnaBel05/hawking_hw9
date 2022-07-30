@@ -2,11 +2,26 @@
 @section('title', 'View characters')
 @section('content')
 
+<p>----------------------</p>
+<p> Gallery </p>
+
+<div class="container">
+        <div class="row">
+            @foreach($characters as $character)
+            <div class="column" width="200px">
+                <img src="{{ asset('/storage/' . $character->image_link) }}" width="200px">
+            </div>
+            @endforeach
+        </div>
+</div>
+
+<p>----------------------</p>
+
 <div class="container">
     <div class="row">
         @foreach($characters as $character)
         <div>
-            <img src="{{ $character->image_link }}">
+            <img src="{{ asset('/storage/' . $character->image_link) }}" width="200px">
             <div>
                 <p>{{ $character->name }}</p>
                 <p>{{ strtolower($character->description) }}</p>
