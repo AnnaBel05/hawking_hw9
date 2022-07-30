@@ -19,8 +19,9 @@ Route::get('/', function () {
 });
 
 Route::get('view-characters', [CharacterController::class, 'index'])->middleware(('testred'));
-Route::get('show-character/{id}', [CharacterController::class, 'show'])->middleware(('testred'));
-Route::get('add-character-form', [CharacterController::class, 'add'])->middleware(('testred'));;
+Route::get('view-by-element', [CharacterController::class, 'indexAnemo'])->middleware(('testred'));
+Route::get('show-character/{id}', [CharacterController::class, 'show'])->middleware(('testred'));;
+Route::get('add-character-form', [CharacterController::class, 'add'])->middleware(('testred'));
 Route::post('store-character-form', [CharacterController::class, 'store'])
 ->middleware(('empty'));
 Route::get('redirects/{id}')->middleware(('testred'));

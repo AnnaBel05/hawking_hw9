@@ -15,10 +15,16 @@ class CharacterController extends Controller
         return view('view-characters', compact('characters'));
     }
 
+    public function indexAnemo()
+    {
+        $characters = Character::where('element_id', 1)->get();
+        return view('view-characters', compact('characters'));
+    }
+
     // todo:
     public function show($id)
     {
-        $character = Character::findOrFail($id);
+        $character = Character::where('id',1);
         return view('show-character', compact('character'));
     }
 
