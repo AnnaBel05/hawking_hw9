@@ -21,15 +21,19 @@
         Add Character //
         </div>
         <div class="card-body">
-        <form name="add-character-form" id="add-character-form" method="post" action="{{url('store-character-form')}}">
+        <form enctype="multipart/form-data" name="add-character-form" id="add-character-form" method="post" action="{{url('store-character-form')}}">
         @csrf
             <div class="form-group">
-            <label for="exampleInputEmail1">Title</label>
+            <label for="name">Name</label>
             <input type="text" id="name" name="name" class="form-control" required="">
             </div>
             <div class="form-group">
-            <label for="exampleInputEmail1">Description</label>
-            <textarea name="description" class="form-control" required=""></textarea>
+            <label for="description">Description</label>
+            <textarea id="description" name="description" class="form-control" required=""></textarea>
+            </div>
+            <div class="form-group">
+            <label for="image_link">Image</label>
+            <input type="file" id="image_link" name="image_link" class="form-control">
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Character;
+use App\Http\Requests\StorePostRequest;
 
 class CharacterController extends Controller
 {
@@ -34,11 +35,16 @@ class CharacterController extends Controller
     }
 
     // finished
-    public function store(Request $request)
+    public function store(StorePostRequest $request)
     {
+        $validated = $request->validated();
+
+        $img = $request->file('image_link')->store('images', 'public');
+        
         $character = new Character;
-        $character->name = $request->name;
+        $character->name = $validated['name'];
         $character->description = $request->description;
+        $character->image_link = $img;
         $character->save();
         return redirect('add-character-form')->with('status', 'Character has been added');
     }

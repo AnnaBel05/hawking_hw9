@@ -24,23 +24,25 @@ class EnsureTokenNotEmpty
         }
         else
         {
-            $characterExist = Character::all();
-            $truth = false;
-            foreach ($characterExist as $character)
-            {
-                if($character->name == $request->name)
-                {
-                    $truth = true;
-                } 
-            }
-            if ($truth)
-            {
-                return redirect('add-character-form')->with('status', 'This character already exists');
-            }
-            else
-            {
-                return $next($request);
-            }
+            // // Проверка на уникальность
+            // $characterExist = Character::all();
+            // $truth = false;
+            // foreach ($characterExist as $character)
+            // {
+            //     if($character->name == $request->name)
+            //     {
+            //         $truth = true;
+            //     } 
+            // }
+            // if ($truth)
+            // {
+            //     return redirect('add-character-form')->with('status', 'This character already exists');
+            // }
+            // else
+            // {
+            //     return $next($request);
+            // }
+            return $next($request);
         }
     }
 }
