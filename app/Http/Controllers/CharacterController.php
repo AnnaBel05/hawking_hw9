@@ -5,13 +5,19 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Character;
 use App\Http\Requests\StorePostRequest;
+use Illuminate\Support\Facades\DB;
 
 class CharacterController extends Controller
 {
     // finished
     public function index()
     {
-        $characters = Character::all();
+        $characters = DB::table('characters')
+            ->join('weapons', 'characters.weapon_id', '=', 'weapons.id')
+            ->join('elements', 'characters.element_id', '=', 'elements.id')
+            ->select('characters.*', 'weapons.weapon_name', 'elements.element_name')
+            ->get()
+        ;
         return view('view-characters', compact('characters'));
     }
 
