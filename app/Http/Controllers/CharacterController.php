@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Character;
 use App\Http\Requests\StorePostRequest;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Cache;
 
 class CharacterController extends Controller
 {
@@ -18,12 +19,15 @@ class CharacterController extends Controller
             ->select('characters.*', 'weapons.weapon_name', 'elements.element_name')
             ->get()
         ;
+
+        Cache::put('characterList', $characters, 600);
         return view('view-characters', compact('characters'));
     }
 
     public function indexAnemo()
     {
         $characters = Character::where('element_id', 1)->get();
+        Cache::put('characterListAnemo', $characters);
         return view('view-characters', compact('characters'));
     }
 
@@ -31,6 +35,7 @@ class CharacterController extends Controller
     public function show($id)
     {
         $character = Character::where('id',1);
+        Cache::put('characterBest', $character);
         return view('show-character', compact('character'));
     }
 
@@ -58,6 +63,8 @@ class CharacterController extends Controller
         $character->description = $request->description;
         $character->image_link = $img;
         $character->save();
+        Cache::put('characterRecent', $character);
+        Cache::tags(['characters', 'latest'])->put('characterRecent', $character);
         return redirect('add-character-form')->with('status', 'Character has been added');
     }
 }
