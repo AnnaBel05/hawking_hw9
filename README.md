@@ -16,7 +16,23 @@ EventServiceProvider.
 
 Ход работы:
 
-1.
+1. Определяем слушателя и событие
+
+![Screenshot from 2022-07-31 23-08-23](https://user-images.githubusercontent.com/79002614/182044651-42665075-7d26-4a0e-be15-443947448609.png)
+
+2. Создаем их при помощи следующей команды 
+
+![Screenshot from 2022-07-31 23-08-54](https://user-images.githubusercontent.com/79002614/182044661-835a4466-cc91-43e1-b950-410db374a22b.png)
+
+![Screenshot from 2022-07-31 23-13-02](https://user-images.githubusercontent.com/79002614/182044705-3c9c85d4-dee1-4cb2-a7ed-ab4d52d5a9f4.png)
+
+3. Создаем mail
+
+![Screenshot from 2022-07-31 23-15-47](https://user-images.githubusercontent.com/79002614/182044728-e07fa2e4-0521-43fa-9bfd-358ff988a232.png)
+
+![Screenshot from 2022-07-31 23-19-53](https://user-images.githubusercontent.com/79002614/182044753-25b65fb5-123e-436e-ae5b-ca90f22cba78.png)
+
+![Screenshot from 2022-07-31 23-42-26](https://user-images.githubusercontent.com/79002614/182044763-ad474849-8f5f-4b56-a63f-957510c9321a.png)
 
 ______________________
 
