@@ -7,6 +7,28 @@
 
 Ход работы:
 
+1. Устанавливаем Elasticsearch с помощью следующих инструкций
+
+![image](https://user-images.githubusercontent.com/79002614/182042731-0989e240-18e1-400e-b833-b41a399466e1.png)
+
+2. Изменяем AppServiceProvider
+
+![Screenshot from 2022-07-31 22-27-52](https://user-images.githubusercontent.com/79002614/182042751-13639630-9742-4297-be22-732fa215fd1a.png)
+
+3. Создаем наблюдателя
+
+![Screenshot from 2022-07-31 22-42-14](https://user-images.githubusercontent.com/79002614/182042768-3ebc3597-10ce-4b23-9f16-ece73651d81d.png)
+
+4. Создаем трейт поиска
+
+![image](https://user-images.githubusercontent.com/79002614/182042786-dbaf7b91-5b84-43f1-a209-df026cf638b6.png)
+
+5. Добавляем трейт в модель
+
+![Screenshot from 2022-07-31 22-43-52](https://user-images.githubusercontent.com/79002614/182042807-ba997512-40d9-4aad-bc5d-67e642dcdeee.png)
+
+6. todo: закончить реализацию. К сожалению, возникли небольшие проблемы с Elasticsearch и не получилось разобраться, как его лучше использовать на данной модели. Возможно при реализации КП будет дополнено.
+
 ______________________
 
 # Hawking School Homework #16
