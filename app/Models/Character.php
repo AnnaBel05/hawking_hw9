@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Http\Traits\RarityTrait;
+use App\Http\Traits\SearchTrait;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use PhpParser\ErrorHandler\Collecting;
@@ -12,6 +13,12 @@ class Character extends Model
     use HasFactory;
 
     use RarityTrait;
+
+    use SearchTrait;
+
+    protected $casts = [
+        'tags' => 'json',
+    ];
 
     public function elements()
     {

@@ -1,7 +1,6 @@
 <?php 
 namespace App\Search;
 
-use App\Article;
 use Elasticsearch\Client;
 
 class ElasticsearchObserver
