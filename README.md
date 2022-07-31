@@ -8,7 +8,31 @@
 
 Ход работы:
 
+1. Подготовка для работы с кэшом
 
+![Screenshot from 2022-07-31 15-59-49](https://user-images.githubusercontent.com/79002614/182028523-aa0350ca-f5c9-4d09-9f8b-5fb0658f3711.png)
+
+2. Используем команды кэша для хранения данных из БД
+
+![Screenshot from 2022-07-31 16-02-35](https://user-images.githubusercontent.com/79002614/182028571-d3cd3e93-08fa-4e68-b859-b1717418b639.png)
+
+![Screenshot from 2022-07-31 16-03-56](https://user-images.githubusercontent.com/79002614/182028578-ba02c05a-dfec-43ae-a91c-3bd8d9b5745a.png)
+
+![Screenshot from 2022-07-31 16-04-58](https://user-images.githubusercontent.com/79002614/182028592-632eabf2-c475-4076-9223-56b96840112d.png)
+
+![Screenshot from 2022-07-31 16-05-29](https://user-images.githubusercontent.com/79002614/182028601-b10c22a7-fe88-40d1-896d-8b028192df21.png)
+
+3. Тэгированный кэш
+
+![Screenshot from 2022-07-31 16-07-24](https://user-images.githubusercontent.com/79002614/182028609-ada1c97e-ef4d-4dfd-8587-5c7de0508f6f.png)
+
+4. Создаем свою артизан-команду
+
+![Screenshot from 2022-07-31 16-09-54](https://user-images.githubusercontent.com/79002614/182028620-b9a557d8-361d-41c9-bf51-e9a576f59573.png)
+
+5. Прописываем правила вызова и работы команды
+
+![Screenshot from 2022-07-31 16-23-41](https://user-images.githubusercontent.com/79002614/182028634-0f1408a2-61b7-40a8-8fd8-fbcef80e6667.png)
 
 ______________________
 
