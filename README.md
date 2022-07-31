@@ -1,3 +1,19 @@
+# Hawking School Homework #20
+
+Задание:
+
+Ход работы:
+
+______________________
+
+# Hawking School Homework #19
+
+Задание:
+
+Ход работы:
+
+______________________
+
 # Hawking School Homework #18
 
 Задание:
