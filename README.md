@@ -29,7 +29,33 @@ ______________________
 
 ![image](https://user-images.githubusercontent.com/79002614/182181168-786af7f1-fe89-4c0b-bcf5-e2ae114c5979.png)
 
-2.
+2. Пример использования функций для работы с изображениями
+
+![Screenshot from 2022-08-01 18-19-31](https://user-images.githubusercontent.com/79002614/182187462-22f2863a-e9e3-4bce-a5fd-62ac99684154.png)
+
+3. Сохранение оружий и персонажей на разные диски
+
+![Screenshot from 2022-08-01 18-22-12](https://user-images.githubusercontent.com/79002614/182187693-291ae87a-9d6d-43f3-850c-a27d50cbe6c4.png)
+
+![Screenshot from 2022-08-01 18-22-49](https://user-images.githubusercontent.com/79002614/182187708-1e0cea5f-e514-4034-8245-bba78fcb52c4.png)
+
+4. Установка пакета Intervention Image
+
+![Screenshot from 2022-08-01 18-24-28](https://user-images.githubusercontent.com/79002614/182187812-b4ea3d46-5775-47e0-93df-38c9ce9da0ab.png)
+
+![Screenshot from 2022-08-01 18-25-35](https://user-images.githubusercontent.com/79002614/182187831-872bcd89-3cb8-4c4f-a9f4-5ac1ab97012e.png)
+
+![Screenshot from 2022-08-01 18-26-26](https://user-images.githubusercontent.com/79002614/182187847-a08e85f0-fd30-460c-a4ad-967e9ad82144.png)
+
+![Screenshot from 2022-08-01 18-27-31](https://user-images.githubusercontent.com/79002614/182187887-4f414f47-1c28-4cbd-854c-3d26d8da2574.png)
+
+5. Смена размера изображения загружаемого пользователем
+
+![Screenshot from 2022-08-01 18-36-19](https://user-images.githubusercontent.com/79002614/182187943-6280fe07-b4d9-49ba-9683-51c02141f0a9.png)
+
+6. Методы для создания собственного изображения (пока не выполнено на практике из-за некоторых технических проблем)
+
+![Screenshot from 2022-08-01 18-39-35](https://user-images.githubusercontent.com/79002614/182188011-0c2ccce2-7c8c-475b-9370-cf266a3acf74.png)
 
 ______________________
 
