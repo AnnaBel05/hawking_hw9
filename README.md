@@ -13,7 +13,35 @@
 
 Ход работы:
 
-1.
+1. Выполняем настройку Laravel Passport согласно указаниям в презентации
+
+2. Создаем LoginController
+
+![Screenshot from 2022-08-01 19-11-32](https://user-images.githubusercontent.com/79002614/182201786-1a6c11d8-a37d-4943-bc54-7853c7b71a9e.png)
+
+![image](https://user-images.githubusercontent.com/79002614/182201891-487a488f-9128-4af4-a647-1cfaa83a1538.png)
+
+3. Создаем следующие модели и миграции
+
+![Screenshot from 2022-08-01 19-32-54](https://user-images.githubusercontent.com/79002614/182201932-e1bcf815-f13d-4d88-86b8-f071ee4fffc9.png)
+
+![Screenshot from 2022-08-01 19-33-51](https://user-images.githubusercontent.com/79002614/182201996-beab4f34-6aa4-43d1-90ef-8dd98d758859.png)
+
+![Screenshot from 2022-08-01 19-33-55](https://user-images.githubusercontent.com/79002614/182202016-5140acf4-fc21-4232-8b16-d5756d6bf2e8.png)
+
+![Screenshot from 2022-08-01 19-36-26](https://user-images.githubusercontent.com/79002614/182202063-e72de761-173f-458c-a6f7-1a1d8ea6bf01.png)
+
+4. Указываем фб в конфиге
+
+![Screenshot from 2022-08-01 19-38-55](https://user-images.githubusercontent.com/79002614/182202140-991ada72-7e18-4597-a4d0-2bba64165bcb.png)
+
+5. Добавляем маршруты
+
+![Screenshot from 2022-08-01 19-41-46](https://user-images.githubusercontent.com/79002614/182202204-2b74a386-2443-451a-9d2f-4c760af6e3db.png)
+
+6. Изменяем view (в процессе) 
+
+![Screenshot from 2022-08-01 19-47-41](https://user-images.githubusercontent.com/79002614/182202228-d90e6ac6-6625-4ef9-8235-4a680c7b753c.png)
 
 ______________________
 
