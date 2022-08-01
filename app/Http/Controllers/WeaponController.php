@@ -36,7 +36,17 @@ class WeaponController extends Controller
      */
     public function store(StoreWeaponRequest $request)
     {
-        //
+        $validated = $request->validated();
+
+        $img = $request->file('image_link')->store('weapons', 'public');
+        
+        $weapon = new Weapon;
+        $weapon->name = $validated['name'];
+        $weapon->description = $request->description;
+        $weapon->image_link = $img;
+        $weapon->save();
+
+        return redirect('add-weapon-form')->with('status', 'Weapon has been added');
     }
 
     /**
