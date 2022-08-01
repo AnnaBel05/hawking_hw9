@@ -25,3 +25,9 @@ Route::get('add-character-form', [CharacterController::class, 'add'])->middlewar
 Route::post('store-character-form', [CharacterController::class, 'store'])
 ->middleware(('empty'));
 Route::get('redirects/{id}')->middleware(('testred'));
+
+Route::get('/social-auth/{provider}',
+    'Auth\SocialController@redirectToProvider')->name('auth.social');
+
+Route::get('/social-auth/{provider}/callback',
+    'Auth\SocialController@handleProviderCallback')->name('auth.social.callback');

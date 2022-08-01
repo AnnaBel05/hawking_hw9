@@ -17,6 +17,14 @@
 
 <p>----------------------</p>
 
+<p> Auth </p>
+
+<a href="{{ route( 'auth.social', 'facebook' ) }}" title="Facebook">
+    <i class="fa fa-2x fa-facebook-square"></i>
+</a>
+
+<p>----------------------</p>
+
 <div class="container">
     <div class="row">
         @foreach($characters as $character)
